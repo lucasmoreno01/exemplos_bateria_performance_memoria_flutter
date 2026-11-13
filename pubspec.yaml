@@ -1,0 +1,23 @@
+name: exemplo_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  cached_network_image: ^4.0.3
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.5.0
+  shared_preferences: ^2.5.6
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
